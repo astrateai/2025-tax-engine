@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+data/output/*
+!data/output/.gitkeep
+forms/filled/2025/federal/*
+!forms/filled/2025/federal/.gitkeep
+forms/filled/2025/wa/*
+!forms/filled/2025/wa/.gitkeep

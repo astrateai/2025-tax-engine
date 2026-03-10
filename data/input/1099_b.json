@@ -1,0 +1,29 @@
+{
+  "forms": [
+    {
+      "broker": "Example Brokerage",
+      "transactions": [
+        {
+          "description": "Example startup shares",
+          "date_acquired": "2022-01-15",
+          "date_sold": "2025-09-04",
+          "proceeds": 9700.00,
+          "cost_basis": 2000.00,
+          "reported_to_irs": true,
+          "adjustment_code": null,
+          "adjustment_amount": 0.00
+        },
+        {
+          "description": "Example ETF sale",
+          "date_acquired": "2025-02-15",
+          "date_sold": "2025-11-01",
+          "proceeds": 1395.00,
+          "cost_basis": 1500.00,
+          "reported_to_irs": true,
+          "adjustment_code": null,
+          "adjustment_amount": 0.00
+        }
+      ]
+    }
+  ]
+}

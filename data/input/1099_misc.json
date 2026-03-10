@@ -1,0 +1,11 @@
+{
+  "forms": [
+    {
+      "payer": "Example Marketplace",
+      "other_income": 150.00,
+      "federal_withheld": 0.00,
+      "state": "WA",
+      "state_income": 150.00
+    }
+  ]
+}
