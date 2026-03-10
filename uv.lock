@@ -300,7 +300,7 @@ wheels = [
 ]
 
 [[package]]
-name = "taxinator"
+name = "tax-engine-2025"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [

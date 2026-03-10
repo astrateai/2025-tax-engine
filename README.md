@@ -1,6 +1,6 @@
-# Taxinator
+# 2025 Tax Engine
 
-Taxinator is a sanitized snapshot of a one-off Python tax engine that OpenAI Codex generated while helping Kyle Corbitt prepare his 2025 taxes.
+This repository is a sanitized snapshot of a one-off Python tax engine that OpenAI Codex generated while helping Kyle Corbitt prepare his 2025 taxes.
 
 Context: it comes from the experiment described in the accompanying blog post, ["Codex, File My Taxes. Make No Mistakes."](https://corbt.com/posts/codex-file-my-taxes-make-no-mistakes)
 
@@ -42,7 +42,7 @@ This public copy does not include:
 ## Repo Layout
 
 ```text
-taxinator/
+2025-tax-engine/
 ├── data/input/          # Synthetic example fixtures only
 ├── data/output/         # Generated calculation output (gitignored)
 ├── forms/blank/         # Blank IRS PDFs used by the filler

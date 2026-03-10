@@ -1,4 +1,4 @@
-"""Generate fillable IRS packet PDFs from Taxinator output.
+"""Generate fillable IRS packet PDFs from the 2025 tax engine output.
 
 Design constraints:
 - Fillable-fields only (no overlay rendering).
@@ -1150,7 +1150,7 @@ def generate_packet() -> dict:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Generate fillable IRS packet PDFs from Taxinator output")
+    parser = argparse.ArgumentParser(description="Generate fillable IRS packet PDFs from the 2025 tax engine output")
     _ = parser.parse_args()
 
     report = generate_packet()

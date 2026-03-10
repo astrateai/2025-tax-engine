@@ -1,5 +1,5 @@
 [project]
-name = "taxinator"
+name = "tax-engine-2025"
 version = "0.1.0"
 description = "Sanitized snapshot of a one-off 2025 tax calculation engine"
 requires-python = ">=3.11"

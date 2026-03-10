@@ -1,4 +1,4 @@
-"""Main calculation orchestrator for Taxinator's 2025 logic."""
+"""Main calculation orchestrator for the 2025 tax engine snapshot."""
 
 from __future__ import annotations
 
