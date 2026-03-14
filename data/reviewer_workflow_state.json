@@ -1,0 +1,55 @@
+{
+  "updatedAt": "2026-03-14T22:15:00Z",
+  "items": [
+    {
+      "caseId": "scenario_01_basic_w2_household",
+      "scenarioOrClient": "scenario_01_basic_w2_household",
+      "status": "drafted",
+      "reviewer": null,
+      "updatedAt": "2026-03-14T22:15:00Z",
+      "notes": "Pilot packet generated.",
+      "blockingIssues": [],
+      "notSubmittedConfirmed": true
+    },
+    {
+      "caseId": "scenario_02_schedule_c",
+      "scenarioOrClient": "scenario_02_schedule_c",
+      "status": "drafted",
+      "reviewer": null,
+      "updatedAt": "2026-03-14T22:15:00Z",
+      "notes": "Pilot packet generated.",
+      "blockingIssues": [],
+      "notSubmittedConfirmed": true
+    },
+    {
+      "caseId": "scenario_03_investment_k1",
+      "scenarioOrClient": "scenario_03_investment_k1",
+      "status": "drafted",
+      "reviewer": null,
+      "updatedAt": "2026-03-14T22:15:00Z",
+      "notes": "Pilot packet generated.",
+      "blockingIssues": ["Complex investment/K-1 path; reviewer attention required."],
+      "notSubmittedConfirmed": true
+    },
+    {
+      "caseId": "scenario_04_missing_docs",
+      "scenarioOrClient": "scenario_04_missing_docs",
+      "status": "review_rejected",
+      "reviewer": "SYSTEM_HARD_STOP",
+      "updatedAt": "2026-03-14T22:15:00Z",
+      "notes": "Preflight hard-stop triggered.",
+      "blockingIssues": ["No income documents found (W-2/1099/K-1)."],
+      "notSubmittedConfirmed": true
+    },
+    {
+      "caseId": "scenario_05_multistate_tx_va",
+      "scenarioOrClient": "scenario_05_multistate_tx_va",
+      "status": "drafted",
+      "reviewer": null,
+      "updatedAt": "2026-03-14T22:15:00Z",
+      "notes": "Pilot packet generated.",
+      "blockingIssues": ["Multi-state TX/VA requires reviewer validation in pilot."],
+      "notSubmittedConfirmed": true
+    }
+  ]
+}
