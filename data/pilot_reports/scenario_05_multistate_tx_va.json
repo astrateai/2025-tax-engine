@@ -7,6 +7,8 @@
     "WA-qualified charitable donation input is $0 while federal noncash donations exist. This is intentional for non-WA-qualified donees; confirm if any donation qualifies under WA rules."
   ],
   "reviewer_flags": [
+    "Coverage lock: Form 2210 is unsupported in pilot.",
+    "Coverage lock: AMT/Form 6251 is unsupported in pilot.",
     "Multi-state wage exposure detected in W-2s: ['TX', 'VA'].",
     "VA state handling requires mandatory reviewer validation in pilot.",
     "TX state handling requires mandatory reviewer validation in pilot."
@@ -38,5 +40,10 @@
     "total_payments": 0.0,
     "refund": 0.0,
     "amount_owed": -13297.0
+  },
+  "manifest": {
+    "scenario": "scenario_05_multistate_tx_va",
+    "gitHead": "2e896eed8d9277e764b2a4e9a44408ab0ac340e3",
+    "inputHash": "bc6be39500ebabedeac4f82e919c869e555a0cdab7cab5905cdca083ae738ebc"
   }
 }

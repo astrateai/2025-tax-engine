@@ -1,0 +1,38 @@
+{
+  "version": "v1",
+  "taxYear": 2025,
+  "supported": {
+    "filingStatus": ["married_filing_jointly"],
+    "federal": [
+      "1040",
+      "schedule_1",
+      "schedule_a",
+      "schedule_b",
+      "schedule_c",
+      "schedule_d",
+      "schedule_e",
+      "schedule_se",
+      "form_8949",
+      "form_1116_simplified",
+      "form_8283",
+      "form_8582_simplified",
+      "form_8959",
+      "form_8960",
+      "form_8962_placeholder",
+      "form_8812_basic"
+    ],
+    "stateMode": "tx_va_reviewer_flag_only"
+  },
+  "unsupported_or_not_implemented": [
+    "form_2210",
+    "form_6251_amt",
+    "full_form_8962_ptc_reconciliation",
+    "broad_multi_state_return_prep",
+    "efile_or_submission"
+  ],
+  "policy": {
+    "onUnsupportedEncountered": "hard_stop",
+    "onStateComplexity": "reviewer_flag",
+    "onMissingRequiredDocs": "hard_stop"
+  }
+}

@@ -6,12 +6,19 @@ import json
 from pathlib import Path
 from typing import Any
 
+from .validator import validate_input_dir
+
 
 def _load_json(path: Path) -> dict[str, Any] | None:
     if not path.exists():
         return None
     with path.open("r", encoding="utf-8") as f:
         return json.load(f)
+
+
+def _load_coverage_lock() -> dict[str, Any]:
+    path = Path(__file__).resolve().parent.parent / "config" / "coverage_lock.json"
+    return _load_json(path) or {}
 
 
 def evaluate_input_dir(input_dir: Path) -> dict[str, Any]:
@@ -64,6 +71,19 @@ def evaluate_input_dir(input_dir: Path) -> dict[str, Any]:
     # Basic identity minima
     if not taxpayer.get("name") or not taxpayer.get("ssn"):
         missing_or_conflicting.append("Missing taxpayer identity fields (name and/or SSN).")
+
+    # Schema + contradiction validation
+    validation = validate_input_dir(input_dir)
+    missing_or_conflicting.extend(validation.get("errors", []))
+    reviewer_flags.extend(validation.get("warnings", []))
+
+    # Coverage lock policy
+    coverage = _load_coverage_lock()
+    unsupported = set(coverage.get("unsupported_or_not_implemented", []))
+    if "form_2210" in unsupported:
+        reviewer_flags.append("Coverage lock: Form 2210 is unsupported in pilot.")
+    if "form_6251_amt" in unsupported:
+        reviewer_flags.append("Coverage lock: AMT/Form 6251 is unsupported in pilot.")
 
     # State complexity guardrail (pilot mode C: reviewer flag first)
     taxpayer_state = (taxpayer.get("state") or "").strip().upper()

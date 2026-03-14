@@ -3,6 +3,8 @@ from __future__ import annotations
 
 import json
 import shutil
+import hashlib
+import subprocess
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -10,6 +12,21 @@ INPUT_DIR = ROOT / "data" / "input"
 SCENARIOS_DIR = ROOT / "data" / "pilot_scenarios"
 REPORTS_DIR = ROOT / "data" / "pilot_reports"
 REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+
+
+def _git_head() -> str:
+    try:
+        return subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=ROOT, text=True).strip()
+    except Exception:
+        return "unknown"
+
+
+def _input_hash(input_dir: Path) -> str:
+    h = hashlib.sha256()
+    for p in sorted(input_dir.glob("*.json")):
+        h.update(p.name.encode())
+        h.update(p.read_bytes())
+    return h.hexdigest()
 
 
 def snapshot_input(tmp_dir: Path) -> None:
@@ -75,6 +92,11 @@ def main() -> None:
                 continue
             name = scenario_dir.name
             apply_scenario(scenario_dir)
+            manifest = {
+                "scenario": name,
+                "gitHead": _git_head(),
+                "inputHash": _input_hash(INPUT_DIR),
+            }
             try:
                 report = run_scenario(name)
             except Exception as exc:
@@ -83,6 +105,7 @@ def main() -> None:
                     "status": "error",
                     "error": str(exc),
                 }
+            report["manifest"] = manifest
             matrix.append(report)
             (REPORTS_DIR / f"{name}.json").write_text(json.dumps(report, indent=2) + "\n")
     finally:

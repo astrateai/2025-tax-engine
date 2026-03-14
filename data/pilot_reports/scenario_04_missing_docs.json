@@ -5,6 +5,8 @@
     "No income documents found (W-2/1099/K-1). Cannot produce review-ready return."
   ],
   "reviewer_flags": [
+    "Coverage lock: Form 2210 is unsupported in pilot.",
+    "Coverage lock: AMT/Form 6251 is unsupported in pilot.",
     "VA state handling requires mandatory reviewer validation in pilot."
   ],
   "notice": {
@@ -12,5 +14,10 @@
       "No income documents found (W-2/1099/K-1). Cannot produce review-ready return."
     ],
     "next_action": "Provide missing/contradicting items, then rerun prep."
+  },
+  "manifest": {
+    "scenario": "scenario_04_missing_docs",
+    "gitHead": "2e896eed8d9277e764b2a4e9a44408ab0ac340e3",
+    "inputHash": "df28463211bdf629dd8e56aab3d37bf3b3b8268385d10fbd53c53acbcf9d16b1"
   }
 }
