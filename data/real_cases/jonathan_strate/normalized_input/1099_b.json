@@ -1,0 +1,21 @@
+{
+  "forms": [
+    {
+      "source_file": "Statement12312025FIdelity.pdf",
+      "broker": "Fidelity",
+      "transactions": [
+        {
+          "description": "REQUIRED",
+          "date_acquired": "REQUIRED",
+          "date_sold": "REQUIRED",
+          "proceeds": "REQUIRED",
+          "cost_basis": "REQUIRED",
+          "adjustment_code": null,
+          "adjustment_amount": 0.0,
+          "reported_to_irs": true
+        }
+      ],
+      "confidence_note": "Transaction-level extraction not automated in v1; manual transaction entry required"
+    }
+  ]
+}

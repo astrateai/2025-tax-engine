@@ -1,0 +1,28 @@
+{
+  "forms": [
+    {
+      "source_file": "1099-INT 2025 - Tax Form.pdf",
+      "payer": "REQUIRED",
+      "interest_income": 2.0,
+      "early_withdrawal_penalty": 0.0,
+      "us_savings_bond_interest": 0.0,
+      "federal_withheld": 5.0,
+      "investment_expenses": 0.0,
+      "foreign_tax_paid": 0.0,
+      "tax_exempt_interest": 0.0,
+      "confidence_note": "AUTO-EXTRACTED values; verify exact box values"
+    },
+    {
+      "source_file": "2025-Individual-4343-Consolidated-Form-1099.pdf",
+      "payer": "REQUIRED",
+      "interest_income": 1545.0,
+      "early_withdrawal_penalty": 0.0,
+      "us_savings_bond_interest": 0.0,
+      "federal_withheld": 0.0,
+      "investment_expenses": 0.0,
+      "foreign_tax_paid": 0.0,
+      "tax_exempt_interest": 0.0,
+      "confidence_note": "Likely partial from consolidated 1099 packet; verify against full statement"
+    }
+  ]
+}

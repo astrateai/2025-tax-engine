@@ -1,0 +1,49 @@
+{
+  "forms": [
+    {
+      "source_file": "2025 W-2 Landrys Payroll Inc. - Jonathan Strate.pdf",
+      "employer": "Landrys Payroll Inc.",
+      "ein": "REQUIRED",
+      "wages": 8839.0,
+      "federal_withheld": 2025.0,
+      "social_security_wages": "REQUIRED",
+      "social_security_withheld": "REQUIRED",
+      "medicare_wages": "REQUIRED",
+      "medicare_withheld": "REQUIRED",
+      "state": "REQUIRED",
+      "state_wages": "REQUIRED",
+      "state_withheld": "REQUIRED",
+      "confidence_note": "AUTO-EXTRACTED PARTIAL: verify all box values against source PDF"
+    },
+    {
+      "source_file": "2025 W-2 NP DURANGO LLC - JONATHAN M STRATE.pdf",
+      "employer": "NP DURANGO LLC",
+      "ein": "REQUIRED",
+      "wages": "REQUIRED",
+      "federal_withheld": "REQUIRED",
+      "social_security_wages": "REQUIRED",
+      "social_security_withheld": "REQUIRED",
+      "medicare_wages": "REQUIRED",
+      "medicare_withheld": "REQUIRED",
+      "state": "REQUIRED",
+      "state_wages": "REQUIRED",
+      "state_withheld": "REQUIRED",
+      "confidence_note": "AUTO-EXTRACT UNRELIABLE on this file; manual box entry required"
+    },
+    {
+      "source_file": "2025 W-2 SV1 Hospitality LLC - Jonathan Mario Strate.pdf",
+      "employer": "SV1 Hospitality LLC",
+      "ein": "REQUIRED",
+      "wages": "REQUIRED",
+      "federal_withheld": "REQUIRED",
+      "social_security_wages": "REQUIRED",
+      "social_security_withheld": "REQUIRED",
+      "medicare_wages": "REQUIRED",
+      "medicare_withheld": "REQUIRED",
+      "state": "REQUIRED",
+      "state_wages": "REQUIRED",
+      "state_withheld": "REQUIRED",
+      "confidence_note": "Document appears image/low text quality; manual entry required"
+    }
+  ]
+}
