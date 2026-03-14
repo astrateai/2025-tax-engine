@@ -32,11 +32,27 @@ def apply_scenario(scenario_dir: Path) -> None:
 
 def run_scenario(name: str) -> dict:
     from src.engine import calculate_2025
+    from src.preflight import evaluate_input_dir
+
+    preflight = evaluate_input_dir(INPUT_DIR)
+    if preflight["hard_stop"]:
+        return {
+            "scenario": name,
+            "status": "hard_stop",
+            "missing_or_conflicting": preflight["missing_or_conflicting"],
+            "reviewer_flags": preflight["reviewer_flags"],
+            "notice": {
+                "required": preflight["missing_or_conflicting"],
+                "next_action": "Provide missing/contradicting items, then rerun prep.",
+            },
+        }
 
     result, audit = calculate_2025()
     payload = {
         "scenario": name,
+        "status": "ok",
         "warnings": result.warnings,
+        "reviewer_flags": preflight["reviewer_flags"],
         "audit_tail": audit[-20:],
         "summary": {
             "taxable_income": float(result.form_1040.lines.get("15").value if result.form_1040 and result.form_1040.lines.get("15") else 0),
@@ -61,7 +77,6 @@ def main() -> None:
             apply_scenario(scenario_dir)
             try:
                 report = run_scenario(name)
-                report["status"] = "ok"
             except Exception as exc:
                 report = {
                     "scenario": name,

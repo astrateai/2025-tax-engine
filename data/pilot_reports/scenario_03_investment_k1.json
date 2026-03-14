@@ -1,11 +1,16 @@
 {
   "scenario": "scenario_03_investment_k1",
+  "status": "ok",
   "warnings": [
     "Form 8962 is simplified; Net PTC is set to $0 as a placeholder.",
     "Foreign tax paid ($7.00) detected but Form 1116 credit computed as $0; verify foreign-source income inputs and limitation math.",
     "Form 2210 underpayment penalty is not implemented; validate separately if required.",
     "Form 6251 AMT computation is not implemented; validate separately if required.",
     "WA-qualified charitable donation input is $0 while federal noncash donations exist. This is intentional for non-WA-qualified donees; confirm if any donation qualifies under WA rules."
+  ],
+  "reviewer_flags": [
+    "Taxpayer state 'VA' differs from W-2 state set ['WA'].",
+    "VA state handling requires mandatory reviewer validation in pilot."
   ],
   "audit_tail": [
     "Self-employment tax:\n  Net profit: $4,000.00\n  SE earnings (92.35%): $3,694.00\n  SS taxable (remaining base): $3,694.00\n  SS tax (12.4%): $458.06\n  Medicare tax (2.9%): $107.13\n  Total SE tax: $565.18\n  Deduction (50%): $282.59",
@@ -35,6 +40,5 @@
     "total_payments": 0.0,
     "refund": 0.0,
     "amount_owed": -9927.0
-  },
-  "status": "ok"
+  }
 }

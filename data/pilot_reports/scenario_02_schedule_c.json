@@ -1,9 +1,13 @@
 {
   "scenario": "scenario_02_schedule_c",
+  "status": "ok",
   "warnings": [
     "Form 2210 underpayment penalty is not implemented; validate separately if required.",
     "Form 6251 AMT computation is not implemented; validate separately if required.",
     "WA-qualified charitable donation input is $0 while federal noncash donations exist. This is intentional for non-WA-qualified donees; confirm if any donation qualifies under WA rules."
+  ],
+  "reviewer_flags": [
+    "TX state handling requires mandatory reviewer validation in pilot."
   ],
   "audit_tail": [
     "W-2 wages: $42,000.00",
@@ -32,6 +36,5 @@
     "total_payments": 0.0,
     "refund": 0.0,
     "amount_owed": 1635.0
-  },
-  "status": "ok"
+  }
 }

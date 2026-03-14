@@ -1,15 +1,3 @@
 {
-  "forms": [
-    {
-      "payer": "Example Brokerage",
-      "ordinary_dividends": 300.00,
-      "qualified_dividends": 200.00,
-      "capital_gain_distributions": 0.00,
-      "federal_withheld": 0.00,
-      "foreign_tax_paid": 7.00,
-      "foreign_source_income": 90.00,
-      "foreign_source_qualified_dividends": 70.00,
-      "foreign_source_capital_gain_distributions": 0.00
-    }
-  ]
+  "forms": []
 }
