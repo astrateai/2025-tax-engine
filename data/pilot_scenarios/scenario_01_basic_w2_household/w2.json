@@ -1,0 +1,30 @@
+{
+  "forms": [
+    {
+      "employer": "Example Software, Inc.",
+      "ein": "00-0000001",
+      "wages": 22835.0,
+      "federal_withheld": 2284.0,
+      "social_security_wages": 22835.0,
+      "social_security_withheld": 1415.77,
+      "medicare_wages": 22835.0,
+      "medicare_withheld": 331.11,
+      "state": "WA",
+      "state_wages": 22835.0,
+      "state_withheld": 0.0
+    },
+    {
+      "employer": "Example Acquirer, Inc.",
+      "ein": "00-0000002",
+      "wages": 17000.0,
+      "federal_withheld": 1700.0,
+      "social_security_wages": 17000.0,
+      "social_security_withheld": 1054.0,
+      "medicare_wages": 17000.0,
+      "medicare_withheld": 246.5,
+      "state": "WA",
+      "state_wages": 17000.0,
+      "state_withheld": 0.0
+    }
+  ]
+}

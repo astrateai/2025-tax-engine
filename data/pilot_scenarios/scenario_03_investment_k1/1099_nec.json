@@ -1,0 +1,11 @@
+{
+  "forms": [
+    {
+      "payer": "Example Advisory Network",
+      "nonemployee_comp": 4000.00,
+      "federal_withheld": 0.00,
+      "state": "WA",
+      "state_income": 4000.00
+    }
+  ]
+}

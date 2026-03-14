@@ -1,0 +1,39 @@
+{
+  "scenario": "scenario_04_missing_docs",
+  "warnings": [
+    "Foreign tax paid ($7.00) detected but Form 1116 credit computed as $0; verify foreign-source income inputs and limitation math.",
+    "Form 2210 underpayment penalty is not implemented; validate separately if required.",
+    "Form 6251 AMT computation is not implemented; validate separately if required.",
+    "WA-qualified charitable donation input is $0 while federal noncash donations exist. This is intentional for non-WA-qualified donees; confirm if any donation qualifies under WA rules."
+  ],
+  "audit_tail": [
+    "W-2 wages: $0.00",
+    "Federal withholding (W-2): $0.00",
+    "No self-employment income",
+    "Principal <= $750k; full mortgage interest deductible",
+    "SALT cap applied:\n  AGI: $-1,580.00\n  Cap: $40,000",
+    "SALT input details:\n  Property taxes: $6,500.00\n  Sales taxes elected: $0.00\n  Total state/local taxes paid: $6,500.00",
+    "Preferential-rate income calculation:\n  Taxable income: $0.00\n  Long-term gains before ST offset: $-1,500.00\n  Short-term amount: $-500.00\n  Long-term gains after ST loss offset: $0.00\n  Qualified dividends: $200.00\n  Preferential income (capped): $0.00\n  Ordinary income: $0.00",
+    "Capital gains tax calculation:\n  $200 at 0.0% = $0",
+    "NIIT net investment income inputs:\n  Interest: $120.00\n  Dividends: $300.00\n  Net capital gain (LT+ST, floor 0): $0.00\n  1099-MISC other income: $0.00\n  Passive income included for NIIT: $0.00\n  Net investment income total: $420.00",
+    "MAGI $-1,580 <= threshold $250,000, no NIIT",
+    "Additional Medicare tax:\n  Total wages: $0.00\n  SE income: $0.00\n  Threshold: $250,000.00\n  Excess: $0.00\n  Tax due (0.9%): $0.00\n  Estimated withheld: $0.00",
+    "Full credit: 2 \u00d7 $2,200 = $4,400",
+    "Foreign tax credit (Form 1116) summary:\n  Foreign tax paid (total): $7.00\n  Foreign-source income (input): $90.00\n  Foreign-source qualified dividends (input): $70.00\n  Adjustment exception: YES\n  Adjustment factor used: 0\n  Foreign income adjusted (line 1a): $90.00\n  Foreign taxable income (line 15 est.): $0.00\n  Worldwide taxable income (line 18 adj.): $0.00\n  US tax for credit (line 20): $0.00\n  Limitation ratio (line 19): 0.000000\n  Limitation (line 21): $0.00\n  Allowed FTC (Schedule 3 line 1): $0.00",
+    "Excess Social Security withholding:\n  SS wage base: $176,100.00\n  Max SS tax (6.2%): $10,918.20\n  Withheld: $0.00\n  Excess credit: $0.00",
+    "Payments summary:\n  Federal withholding: $0.00\n  Excess SS credit: $0.00\n  Estimated tax payments: $5,000.00\n  Total payments: $5,000.00",
+    "WARNING: Foreign tax paid ($7.00) detected but Form 1116 credit computed as $0; verify foreign-source income inputs and limitation math.",
+    "WARNING: Form 2210 underpayment penalty is not implemented; validate separately if required.",
+    "WARNING: Form 6251 AMT computation is not implemented; validate separately if required.",
+    "No WA capital gains tax (gains $-1,500 - deduction $278,000 <= 0)",
+    "WARNING: WA-qualified charitable donation input is $0 while federal noncash donations exist. This is intentional for non-WA-qualified donees; confirm if any donation qualifies under WA rules."
+  ],
+  "summary": {
+    "taxable_income": 0.0,
+    "total_tax": -4400.0,
+    "total_payments": 0.0,
+    "refund": 0.0,
+    "amount_owed": -9400.0
+  },
+  "status": "ok"
+}

@@ -1,0 +1,29 @@
+{
+  "forms": [
+    {
+      "broker": "Pilot Brokerage",
+      "transactions": [
+        {
+          "description": "Pilot ETF A",
+          "date_acquired": "2024-01-10",
+          "date_sold": "2025-07-02",
+          "proceeds": 18500.0,
+          "cost_basis": 12000.0,
+          "reported_to_irs": true,
+          "adjustment_code": null,
+          "adjustment_amount": 0.0
+        },
+        {
+          "description": "Pilot ETF B",
+          "date_acquired": "2025-02-10",
+          "date_sold": "2025-09-01",
+          "proceeds": 4200.0,
+          "cost_basis": 5600.0,
+          "reported_to_irs": true,
+          "adjustment_code": null,
+          "adjustment_amount": 0.0
+        }
+      ]
+    }
+  ]
+}

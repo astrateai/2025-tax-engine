@@ -1,0 +1,16 @@
+{
+  "forms": [
+    {
+      "payer": "Example Bank",
+      "interest_income": 45.00,
+      "federal_withheld": 0.00,
+      "foreign_tax_paid": 0.00
+    },
+    {
+      "payer": "Example Brokerage",
+      "interest_income": 75.00,
+      "federal_withheld": 0.00,
+      "foreign_tax_paid": 0.00
+    }
+  ]
+}

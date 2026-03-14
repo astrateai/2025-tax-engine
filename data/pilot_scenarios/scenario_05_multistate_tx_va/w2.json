@@ -1,0 +1,30 @@
+{
+  "forms": [
+    {
+      "employer": "VA Employer",
+      "ein": "22-2222222",
+      "wages": 55000.0,
+      "federal_withheld": 6200.0,
+      "social_security_wages": 55000.0,
+      "social_security_withheld": 3410.0,
+      "medicare_wages": 55000.0,
+      "medicare_withheld": 797.5,
+      "state": "VA",
+      "state_wages": 55000.0,
+      "state_withheld": 2200.0
+    },
+    {
+      "employer": "TX Employer",
+      "ein": "33-3333333",
+      "wages": 35000.0,
+      "federal_withheld": 3600.0,
+      "social_security_wages": 35000.0,
+      "social_security_withheld": 2170.0,
+      "medicare_wages": 35000.0,
+      "medicare_withheld": 507.5,
+      "state": "TX",
+      "state_wages": 35000.0,
+      "state_withheld": 0.0
+    }
+  ]
+}

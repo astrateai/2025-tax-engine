@@ -1,0 +1,17 @@
+{
+  "forms": [
+    {
+      "employer": "Pilot Corp",
+      "ein": "11-1111111",
+      "wages": 42000.0,
+      "federal_withheld": 4800.0,
+      "social_security_wages": 42000.0,
+      "social_security_withheld": 2604.0,
+      "medicare_wages": 42000.0,
+      "medicare_withheld": 609.0,
+      "state": "TX",
+      "state_wages": 42000.0,
+      "state_withheld": 0.0
+    }
+  ]
+}

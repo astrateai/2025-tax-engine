@@ -1,0 +1,12 @@
+{
+  "forms": [
+    {
+      "lender": "Example Mortgage Co.",
+      "mortgage_interest": 18000.00,
+      "points_paid": 0.00,
+      "property_taxes": 6500.00,
+      "property_address": "123 Example Street, Exampletown, WA 98000",
+      "outstanding_principal": 640000.00
+    }
+  ]
+}

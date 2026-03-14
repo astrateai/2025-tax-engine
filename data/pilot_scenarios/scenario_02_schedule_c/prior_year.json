@@ -1,0 +1,9 @@
+{
+  "short_term_capital_loss": "-500.00",
+  "long_term_capital_loss": "-1500.00",
+  "suspended_passive_losses": {
+    "Example Passive Fund II LLC": "1200.00"
+  },
+  "amt_credit": "0.00",
+  "charitable_contribution_carryover": "0.00"
+}

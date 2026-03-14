@@ -1,0 +1,27 @@
+{
+  "name": "Example Taxpayer",
+  "ssn": "000-00-0001",
+  "spouse_name": "Example Spouse",
+  "spouse_ssn": "000-00-0002",
+  "filing_status": "married_filing_jointly",
+  "address": "123 Example Street",
+  "city": "Exampletown",
+  "state": "VA",
+  "zip_code": "98000",
+  "dependents": [
+    {
+      "name": "Example Child One",
+      "ssn": "000-00-0003",
+      "relationship": "child",
+      "date_of_birth": "2015-06-15",
+      "qualifies_for_ctc": true
+    },
+    {
+      "name": "Example Child Two",
+      "ssn": "000-00-0004",
+      "relationship": "child",
+      "date_of_birth": "2018-09-01",
+      "qualifies_for_ctc": true
+    }
+  ]
+}
