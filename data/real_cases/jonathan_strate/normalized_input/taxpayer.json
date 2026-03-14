@@ -1,0 +1,12 @@
+{
+  "name": "REQUIRED",
+  "ssn": "REQUIRED",
+  "spouse_name": "",
+  "spouse_ssn": "",
+  "filing_status": "married_filing_jointly",
+  "address": "REQUIRED",
+  "city": "REQUIRED",
+  "state": "REQUIRED",
+  "zip_code": "REQUIRED",
+  "dependents": []
+}

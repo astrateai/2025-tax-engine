@@ -1,0 +1,55 @@
+[
+  {
+    "file": "1099-INT 2025 - Tax Form.pdf",
+    "type": "1099_int",
+    "confidence": "medium",
+    "fields": {
+      "interest_income_box1": 2.0,
+      "federal_withheld_box4": 5.0
+    }
+  },
+  {
+    "file": "2025 W-2 Landrys Payroll Inc. - Jonathan Strate.pdf",
+    "type": "w2",
+    "confidence": "medium",
+    "fields": {
+      "wages_box1": 8839.0,
+      "federal_withheld_box2": 2025.0
+    }
+  },
+  {
+    "file": "2025 W-2 NP DURANGO LLC - JONATHAN M STRATE.pdf",
+    "type": "w2",
+    "confidence": "medium",
+    "fields": {
+      "wages_box1": 2.0,
+      "federal_withheld_box2": 2025.0
+    }
+  },
+  {
+    "file": "2025 W-2 SV1 Hospitality LLC - Jonathan Mario Strate.pdf",
+    "type": "w2",
+    "confidence": "medium",
+    "fields": {
+      "wages_box1": null,
+      "federal_withheld_box2": 3.0
+    }
+  },
+  {
+    "file": "2025-Individual-4343-Consolidated-Form-1099.pdf",
+    "type": "1099_int",
+    "confidence": "medium",
+    "fields": {
+      "interest_income_box1": 1545.0,
+      "federal_withheld_box4": 0.0
+    }
+  },
+  {
+    "file": "Statement12312025FIdelity.pdf",
+    "type": "1099_b",
+    "confidence": "low",
+    "fields": {
+      "note": "Requires transaction-level extraction/manual normalization in v1."
+    }
+  }
+]
