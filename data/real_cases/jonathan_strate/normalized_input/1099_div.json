@@ -2,9 +2,9 @@
   "forms": [
     {
       "source_file": "2025-Individual-4343-Consolidated-Form-1099.pdf",
-      "payer": "REQUIRED",
-      "ordinary_dividends": "REQUIRED_OR_ZERO",
-      "qualified_dividends": "REQUIRED_OR_ZERO",
+      "payer": "NATIONAL FINANCIAL SERVICES LLC",
+      "ordinary_dividends": null,
+      "qualified_dividends": null,
       "capital_gain_distributions": 0.0,
       "section_1250_gain": 0.0,
       "section_1202_gain": 0.0,
@@ -15,7 +15,13 @@
       "foreign_source_income": 0.0,
       "foreign_source_qualified_dividends": 0.0,
       "foreign_source_capital_gain_distributions": 0.0,
-      "confidence_note": "Consolidated 1099 likely includes DIV sections; manual verification required"
+      "confidence": {
+        "payer": "high",
+        "ordinary_dividends": "missing",
+        "qualified_dividends": "missing",
+        "capital_gain_distributions": "missing",
+        "foreign_tax_paid": "missing"
+      }
     }
   ]
 }

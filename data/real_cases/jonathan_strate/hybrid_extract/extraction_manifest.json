@@ -1,0 +1,32 @@
+[
+  {
+    "file": "1099-INT 2025 - Tax Form.pdf",
+    "method": "local_ocr_tesseract",
+    "chars": 11366
+  },
+  {
+    "file": "2025 W-2 Landrys Payroll Inc. - Jonathan Strate.pdf",
+    "method": "local_ocr_tesseract",
+    "chars": 16828
+  },
+  {
+    "file": "2025 W-2 NP DURANGO LLC - JONATHAN M STRATE.pdf",
+    "method": "local_ocr_tesseract",
+    "chars": 16670
+  },
+  {
+    "file": "2025 W-2 SV1 Hospitality LLC - Jonathan Mario Strate.pdf",
+    "method": "local_ocr_tesseract",
+    "chars": 3301
+  },
+  {
+    "file": "2025-Individual-4343-Consolidated-Form-1099.pdf",
+    "method": "local_ocr_tesseract",
+    "chars": 11777
+  },
+  {
+    "file": "Statement12312025FIdelity.pdf",
+    "method": "local_ocr_tesseract",
+    "chars": 27705
+  }
+]

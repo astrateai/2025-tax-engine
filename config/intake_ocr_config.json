@@ -1,0 +1,15 @@
+{
+  "mode": "hybrid",
+  "google_document_ai": {
+    "enabled": false,
+    "project_id": "",
+    "location": "us",
+    "processor_id": "",
+    "credentials_env_var": "GOOGLE_APPLICATION_CREDENTIALS"
+  },
+  "local_ocr": {
+    "enabled": true,
+    "tesseract_lang": "eng"
+  },
+  "confidence_threshold": 0.92
+}

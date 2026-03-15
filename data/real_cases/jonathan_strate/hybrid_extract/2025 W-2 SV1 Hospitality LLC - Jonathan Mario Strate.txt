@@ -1,0 +1,168 @@
+OMB No.
+1545-0008
+
+Copy B - For Employee's Federal Income Tax Return 2025
+
+‘a Employee's social
+security number
+
+610-76-9928
+
+b Employer 1D number
+
+86-3580900
+
+3 Social security wages 7 Social secumly tax winheld
+3 Medicare wages and Ups @ Medicare tax winheld
+
+‘c Employer's name, address, and ZIP code
+SV1 Hospitality LLC
+6635 S Las Vegas Blvd
+Las Vegas, NV 89119
+
+d Control number
+
+314286 106
+
+‘e Employee's name, address, and ZIP code
+Jonathan Mario Strate
+4327 Holleys Hill Street
+Las Vegas, NV 89129
+
+7 Social security tips 8 Allocated tips 3 Advance EIc payment
+14179.82
+TO Dependent care benefits TI Nonqualified plans
+
+a TS Statutory employee Retirement plan Srd-parly sick pay
+12b
+
+14 Other
+i2c
+
+N/A
+
+15 State Employer's State ID#
+18 Local wages, tips, etc
+
+N/A
+
+16 State wages, tips, etc.
+19 Local income tax
+
+N/A
+
+17 State income tax
+20 Locality name
+
+N/A
+
+Form W-2 Wage and Tax Statement
+
+Dept. of the Treasury - IRS
+This information is being furnished to the Internal Revenue Service
+
+This information is being furnished to the IRS. If you are required to file a tax return, a negligence penalty/other sanction
+may be imposed on you if this income is taxable and you fail to report it
+
+T Wages, tips, other comp. 2 Federal income tax withheld
+20607.11
+
+OMB No.
+
+‘a Employee's social T Wages, tips, other comp. Z Federal mcome tax winheld
+610-76-9928 3 Social secumily wages 7 Social secunity tax withheld
+3 Medicare wages and ips Medicare tax withheld
+
+D Employer ID number
+
+86-3580900
+
+‘c Employers name, address, and ZIP code
+SV1 Hospitality LLC
+6635 S Las Vegas Blvd
+Las Vegas, NV 89119
+
+d Control number
+
+314286 106
+
+‘e Employee's name, address, and ZIP code
+Jonathan Mario Strate
+4327 Holleys Hill Street
+
+NV 89129
+
+—e
+_— |
+
+T3 Statutory employee Retirement plan _ srd-party sick pay
+
+14 Other
+
+20607 .11
+
+Las Vegas,
+
+NV | NOT NEEDED
+
+15 State Employer's State ID#
+18 Local wages, tips, etc.
+
+N/A
+
+16 State wages, tips, etc.
+19 Local income tax
+
+N/A
+
+17 State income tax
+20 Locality name
+
+N/A
+
+Form W-2 Wage and Tax Statement Dept. of the Treasury - IRS
+
+Printed by Paylocity Payroll
+Page 1 of 2
+
+Copy C- FOR EMPLOYEE'S RECORDSONLY | DQZH wens,
+
+a Employee's social 1 Wages, tips, other comp. 2 Federal income tax withheld
+610-76-9928 3 Social security wages 4 Social security tax withheld
+86-3580900 5 Medicare wages and tips 6 Medicare tax withheld
+
+c Employer's name, address, and ZIP code
+SV1 Hospitality LLC
+6635 S Las Vegas Blvd
+Las Vegas, NV 89119
+
+d Control number
+
+314286106
+
+e Employee's name, address, and ZIP code
+Jonathan Mario Strate
+4327 Holleys Hill Street
+
+Las Vegas, NV 89129
+
+7 Social security tips 8 Allocated tips 9 Advance EIC payment
+14179.82
+
+10 Dependent care benefits 11 Nonqualified plans BS
+12a Po 13 Statutory employee Retirement plan 3rd-party sick pay
+
+12b
+14 Other
+
+NV | NOT NEEDED 20607.11
+
+15 State Employer's State ID# 16 State wages, tips, etc. 17 State income tax
+18 Local wages, tips, etc. 19 Local income tax 20 Locality name
+
+N/A N/A N/A
+
+Form W-2 Wage and Tax Statement Dept. of the Treasury - IRS
+
+This information is being furnished to the IRS. If you are required to file a tax return, a negligence penalty/other sanction Printed by Paylocity Payroll
+may be imposed on you if this income is taxable and you fail to report it. Page 2 of 2

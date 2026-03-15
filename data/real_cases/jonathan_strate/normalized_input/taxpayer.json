@@ -1,12 +1,20 @@
 {
-  "name": "REQUIRED",
-  "ssn": "REQUIRED",
+  "name": "Jonathan Mario Strate",
+  "ssn": null,
   "spouse_name": "",
   "spouse_ssn": "",
   "filing_status": "married_filing_jointly",
-  "address": "REQUIRED",
-  "city": "REQUIRED",
-  "state": "REQUIRED",
-  "zip_code": "REQUIRED",
-  "dependents": []
+  "address": "4327 Holleys Hill Street",
+  "city": "Las Vegas",
+  "state": "NV",
+  "zip_code": "89129",
+  "dependents": [],
+  "confidence": {
+    "name": "high",
+    "ssn": "missing",
+    "address": "high",
+    "city": "high",
+    "state": "high",
+    "zip_code": "medium"
+  }
 }

@@ -1,0 +1,46 @@
+{
+  "case": "jonathan_strate",
+  "blocking_count": 8,
+  "blocking_fields": [
+    {
+      "field": "taxpayer.ssn",
+      "reason": "Full SSN not present in locally extracted text (masked as XXX-XX-9928 / ***-**-9928).",
+      "blocking": "Cannot prepare review-ready return package without taxpayer SSN."
+    },
+    {
+      "field": "w2.forms[2].wages",
+      "reason": "Missing from local OCR text for 2025 W-2 SV1 Hospitality LLC - Jonathan Mario Strate.pdf",
+      "blocking": "W-2 required field missing."
+    },
+    {
+      "field": "w2.forms[2].social_security_wages",
+      "reason": "Missing from local OCR text for 2025 W-2 SV1 Hospitality LLC - Jonathan Mario Strate.pdf",
+      "blocking": "W-2 required field missing."
+    },
+    {
+      "field": "w2.forms[2].social_security_withheld",
+      "reason": "Missing from local OCR text for 2025 W-2 SV1 Hospitality LLC - Jonathan Mario Strate.pdf",
+      "blocking": "W-2 required field missing."
+    },
+    {
+      "field": "w2.forms[2].medicare_wages",
+      "reason": "Missing from local OCR text for 2025 W-2 SV1 Hospitality LLC - Jonathan Mario Strate.pdf",
+      "blocking": "W-2 required field missing."
+    },
+    {
+      "field": "w2.forms[2].medicare_withheld",
+      "reason": "Missing from local OCR text for 2025 W-2 SV1 Hospitality LLC - Jonathan Mario Strate.pdf",
+      "blocking": "W-2 required field missing."
+    },
+    {
+      "field": "1099_div.forms[0].ordinary_dividends",
+      "reason": "Missing from local OCR text for 2025-Individual-4343-Consolidated-Form-1099.pdf",
+      "blocking": "1099-DIV required field missing."
+    },
+    {
+      "field": "1099_div.forms[0].qualified_dividends",
+      "reason": "Missing from local OCR text for 2025-Individual-4343-Consolidated-Form-1099.pdf",
+      "blocking": "1099-DIV required field missing."
+    }
+  ]
+}
